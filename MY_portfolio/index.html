@@ -1,0 +1,300 @@
+<!Doctype html>
+<html lang="en"><!--"This tells the browser and accessibility tools that the page is in English."-->
+
+<!-- This section is not shown to the user -->
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width , initial-scale=1.0">
+
+    <meta name="description"
+    content="Portfolio of Vishwas Sharma, AI Software Engineering Student">
+
+    <title>Vishwas Portfolio</title>                <!-- It is the name of web page-->
+    <link rel="stylesheet" href="style.css">     <!--Connecting with css file-->
+    <script src="script.js"></script>           <!--Connecting with javascript-->
+
+
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1 id="main-title">Vishwas Sharma</h1>
+        <h2 id="prof">AI software Engineering  Student</h2>
+        <hr><hr>
+          
+        <!-- MY IMAGE -->
+        <img src="images/myphoto.jpeg"
+        alt="Profile photo of Vishwas Sharma"
+        width="200"
+        >
+    </header>
+    <!-- MAIN CONTENT -->
+    <!--INTRODUCTION-->
+    <main>
+        <p>Hello! I am learning HTML and CSS to become an AI Software Engineer.  </p>
+        <section>
+            <hr><hr>
+            <!-- SKILLS -->
+            <h2 class="section-title">My Skills</h2>
+             
+            <!-- UNORDERED LIST -->
+            <ul class="list">
+                <li class="skill-card">Python</li>
+                <li class="skill-card">Git</li>
+                <li class="skill-card">Linux</li>
+                <li class="skill-card">HTML</li>
+            </ul>
+        </section>
+        <hr><hr>
+
+        <section> 
+            <!-- LEARNING ROADMAP -->
+            <h2 class="section-title">Learning Roadmap</h2>
+             
+            <!-- ORDERED LIST -->
+            <ol class="list">
+                <li class="skill-card">HTML</li>
+                <li class="skill-card">CSS</li>
+                <li class="skill-card">Javascript</li>
+                <li class="skill-card">Python</li>
+            </ol>
+        </section>
+
+        <hr><hr>
+        <section>
+            <h2 class="section-title">Skills levels</h2>
+             
+            <!--SKILL PROFICIENCY TABLE -->
+            <table border="2">
+                <tr>
+                    <th>Skills</th>
+                    <th>Level</th>
+                    <th>Experience</th>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Intermediate</td>
+                    <td>1 Year</td>
+                </tr>
+                <tr>
+                    <td>Git</td>
+                    <td>Beginner</td>
+                    <td>6 Months</td>
+                </tr>
+                <tr>
+                    <td>Linux</td>
+                    <td>Intermediate</td>
+                    <td>3 months</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Beginner</td>
+                    <td>1 week</td>
+                </tr>
+                
+            </table>
+                
+            
+        </section>
+        <hr><hr>
+        <section>
+            <h2 class="section-title">My projects</h2>
+             
+            <div class="projects">
+                <div class="project-card">Student Command Centre</div>
+                <div class="project-card">Fake News Detection</div>
+                <div class="project-card">Calculator</div>
+                <div class="project-card">Phonebook</div>
+                <div class="project-card">Ai-Tutor application</div>
+                <div class="project-card">My Portfolio</div>
+            </div>
+        </section>
+        <hr><hr>
+        <!-- LINKS -->
+        <section>
+            <h2 class="section-title">My Profiles</h2>
+             
+            <p>
+                <a  class="links"
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    GITHUB
+                
+                </a>
+            </p>
+        
+            <a  class="links"
+                href="https://www.linkedin.com/in/vishwas-sharma-772aa1414"
+                target="_blank"
+                rel="noopener noreferrer">
+                LINKEDIN
+
+            </a>
+        </section>
+        <hr><hr>
+        <!-- CONTACT FORM -->
+        <section>
+            <h2 class="section-title">Contact Me</h2>
+             
+
+            <form>
+                <label for="name">Name</label>
+                <br>
+                <input 
+                    type="text"
+                    id="name"
+                    placeholder="Enter your full name"
+                    required>
+                
+
+                <br><br>
+            
+                <label for="email">Email</label>
+                <br>
+                <input type="email"
+                        id="email"
+                        placeholder="example@gmail.com"
+                        required>
+
+                <br><br>
+                
+                <label for="password">Password</label>
+                <br>
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter password"
+                    required>
+
+                <br><br>
+
+                <label for ="age">Age</label>
+                <input id="age"
+                        type="number"
+                        min="1"
+                        max="120">
+
+                <br><br>    
+                
+                <label for ="dob">Date of Birth</label>
+                <input id="dob"
+                    type="date">
+                
+                <br><br>
+
+                <label for="country">Country</label>
+                <br>
+                <select id="country">
+                    <option value="IN">INDIA</option>
+                    <option value="USA">USA</option>
+                    <option value="JAP">JAPAN</option>
+                    <option value="CAN">CANADA</option>
+                </select>
+
+                <br><br>
+                
+                <label>Gender</label><br>
+                
+                <input
+                        type="radio"
+                        id="male"
+                        name="gender">
+                <label for="male">Male</label>
+
+                <br>
+
+                <input
+                    type="radio"
+                    id="female"
+                    name="gender">
+                <label for="female">Female</label>
+
+                <br><br>
+
+                <label>Skills</label>
+
+                <input
+                    type="checkbox"
+                    id="python">
+                <label for="python">Python</label>
+
+                <br>
+
+                <input type="checkbox"
+                        id="git">
+                <label for="git">Git</label>
+
+                <br>
+
+                <input type="checkbox"
+                        id="linux">
+                <label for="linux">Linux</label>
+
+                <br><br>
+
+                <label for="about">About Me</label>
+                <br>
+                <textarea
+                    id="about"
+                    rows="5"
+                    cols="40"
+                    placeholder="Tell us about yourself">
+                </textarea>
+                
+                <br><br>
+
+                <label for = "resume">Upload Resume</label>
+                <br>
+
+                <input type="file"
+                        id="resume">
+                
+                <br><br>
+
+
+
+
+                <button type="submit">Submit</button>
+
+            </form>
+
+        </section>
+        <hr><hr>
+
+        <!--AUDIO INTRO  -->
+        <section>
+            <h2 class="media-title">My introduction Audio</h2>
+             
+            <audio controls muted>
+                    <source src="audios/portfolio.mp3"
+                    type="audio/mpeg">
+            </audio>
+        </section>
+        <hr><hr>
+
+        <!-- VIDEO INTRO -->
+        <section>
+            <h2 class="media-title">My introduction Video</h2>
+             
+            <video muted controls  width="300">
+                <source src="videos/portfolio.mp4">
+                       
+            </video>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Vishwas Sharma</p>
+    </footer>
+    <hr>
+
+</body>
+
+</html>

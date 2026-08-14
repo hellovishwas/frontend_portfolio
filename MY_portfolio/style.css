@@ -1,0 +1,132 @@
+/* Universal Selector */
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Element Selector */
+p{
+    color:rgb(96, 46, 2);
+    font-size: 20px;  
+    line-height: 1.4; 
+}
+
+/* Page */
+body{
+    background-color: rgb(236, 226, 199);
+}
+
+/* label */
+label{
+    color:rgb(108, 6, 6);
+}
+
+a{
+    font-weight: lighter;
+    color: rgb(34, 0, 255);
+}
+
+table{
+    border-style:groove;
+    font-style:inherit;
+    width: 60%;
+    border-color: rgb(240, 240, 10);
+}
+
+th,td{padding: 10px;
+    text-align: center;
+}
+
+img{
+    border-radius: 12px;
+    border-style: solid;
+}
+
+video,audio{
+    border-radius: 12px;
+    display:block;
+    margin-right: auto;
+    margin-left:0;
+
+}
+
+hr{
+    color: darkgoldenrod;
+}
+
+
+footer p{
+    color:rgb(28, 2, 46);
+    text-align: center;
+    font-style: italic;
+}
+
+.list{
+    display:flex;
+    gap: 30px;   
+}
+
+.section-title{
+    color: rgb(40, 7, 71);
+    background-color: rgb(231, 193, 193);
+    padding:5px;
+    border:2px solid rgb(40,7,71);
+    margin:20px 0;
+    display: inline-block;
+
+}
+
+.media-title{
+    color:rgb(75, 9, 9);
+    background-color:rgb(242, 168, 168) ;
+    padding:5px;
+    border:2px solid rgb(75, 9, 9);
+    margin: 20px 0;
+    display:inline-block;
+}
+
+.skill-card{
+    border:2px solid black;
+    padding:5px;
+    justify-content: flex-start;
+}
+
+.links{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(20, 1, 96);
+    display:flex;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:20px;
+    width:fit-content;
+    justify-content: start;
+}
+
+.project-card{
+    border:2px solid black;
+    padding:5px;
+    text-align:center;
+    background:whitesmoke;
+}
+
+#main-title{
+    color:rgb(4, 1, 24);
+    text-align: center;
+    font-size: 40px;
+    font-weight:bolder;
+    text-decoration: underline;
+}
+
+#prof{
+    color:rgb(10, 63, 168);
+    text-align: center;
+    font-weight: lighter;
+}
+
+
+
+
+
